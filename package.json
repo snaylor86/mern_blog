@@ -1,0 +1,24 @@
+{
+  "name": "node_blog_back_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snaylor86/node_blog_back_end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snaylor86/node_blog_back_end/issues"
+  },
+  "homepage": "https://github.com/snaylor86/node_blog_back_end#readme",
+  "dependencies": {
+    "concurrently": "^4.1.0"
+  }
+}
